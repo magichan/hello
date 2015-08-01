@@ -29,4 +29,6 @@ git reset --hard HEAD^
 
 `git branch ` 查看分支，当前分支用 `*` 标明　
 
-`git merge` 用于指定分支合并到当前分支
+`git merge name` 用于指定分支合并到当前分支
+
+`git branch -d name ` 删除指定分支
