@@ -14,3 +14,19 @@ git reset --hard HEAD^
 
 ### 工作区和暂存区
 
+
+### 分支学习
+
+
+一条完整的时间线作为一条分支，而最初始的分支被一般被称为　`master` 分支，　严格来说　`HEAD` 指向的是　
+当前分支，即正在操作的分支，所以当创建新的分支时，就会　`HEAD`　就会跑到操作分支上
+
+`git branch dev`  创建 `dev` 分支
+`git checkout dev` 切换到　`dev` 分支
+以上两个命令等价于　
+
+`git checkout -b dev ` 代表创建一个 `dev` 分支，而参数意味着创建并切换分支
+
+`git branch ` 查看分支，当前分支用 `*` 标明　
+
+
