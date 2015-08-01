@@ -31,4 +31,4 @@ git reset --hard HEAD^
 
 `git merge name` 用于指定分支合并到当前分支
 
-`git branch -d name ` 删除指定分支
+`git branch -d name ` 删除指定分字
