@@ -55,8 +55,8 @@ git是一个P2P的代码管理系统，所以可以说，github上的库不是�
 `git remote rename oldname newname` 改名
 
 ### 推送
-使用命令git push -u origin master第一次推送master分支的所有内容
-就可以使用命令git push origin master推送最新修改
+`git push -u origin master`  第一次推送 master 分支的所有内容
+`git push origin master` 推送最新修改
 
 
 
