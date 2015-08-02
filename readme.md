@@ -60,4 +60,22 @@ git是一个P2P的代码管理系统，所以可以说，github上的库不是�
 `git push origin master` 推送最新修改
 
 
+Q&A 
+Q:我在github上fork一个项目，自己做了些改动。人家update了，我fork的项目怎么
+跟进呢？
+A:
+1 .首先　绑定　fork 项目的原库
+```
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+```
+`upstream` 和 `origin`  一样都是习惯用名，代表同步
+
+2. `git fetch upstream ` 从原库中获得　upstream/master 
+就可以在本地获得一个　原库　中较新的分支
+
+3. 交换到本地　`master` ,　合并　upstream/master 
+```
+git checkout master
+git merge upstream/master
+```
 
