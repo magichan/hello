@@ -37,3 +37,13 @@ git reset --hard HEAD^
 使用 `git status` 可一查看冲突文件
 这时直接查看冲突文件，　git 会为使用　`<<<<` `====` `>>>>` 标志区分冲突内容，修改一下，删除标志，add ,
         commit 就可以了
+
+
+## 远程库操作
+
+git是一个P2P的代码管理系统，所以可以说，github上的库不是主库，只是和本地同等地位的一个库而已
+一般先在 `gitbub` 上建好库，再和本地库绑定在一起
+`git remote add [shortname] [url]：` 为绑定命令
+`git remote add origin git@github.com:myname/magit.git`  是一般做法 远程库的默认叫法是 `origin` 
+
+
