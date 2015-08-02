@@ -43,10 +43,20 @@ git reset --hard HEAD^
 
 git是一个P2P的代码管理系统，所以可以说，github上的库不是主库，只是和本地同等地位的一个库而已
 一般先在 `gitbub` 上建好库，再和本地库绑定在一起
+
 `git remote add [shortname] [url]：` 为绑定命令
+
 `git remote add origin git@github.com:myname/magit.git`  是一般做法 远程库的默认叫法是 `origin` 
+
 `git remote rm name` 删除和远程库的连接
+
 `git remote -v`   显示远程库信息
+
 `git remote rename oldname newname` 改名
+
+### 推送
+使用命令git push -u origin master第一次推送master分支的所有内容
+就可以使用命令git push origin master推送最新修改
+
 
 
